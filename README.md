@@ -1,12 +1,12 @@
 # vulkan_descriptor_sets
 A small vulkan sample showing how to use a single buffer with multiple descriptors. I thought of putting this out since it took me a bit if time to figure out the mechanism to do it properly and I couldn't find any samples that did it with multiple offsets. 
 
-This sample is not production ready at the moment, and is really more to show how to use descriptor offsets with bbuffers for anyone that is learning Vulkan.
+This sample is not production ready at the moment, and is really more to show how to use descriptor offsets with buffers for anyone that is learning Vulkan.
 
 Much of the original code is from vkguide.dev with some of my own changes/refactoring to make the code a bit easier to navigate and read.
 The spirv shaders can be found in the shaders folder along with the original shader text code.
 
-A small description of the project: 
+A short description of the project and important files: 
 
 The definition of the buffer that will be used is inside vk_frame_data.h. It's called globalFrameDataBuffer inside FrameData. 
 A global FrameData variable is then defined in vk_game_engine.h.
