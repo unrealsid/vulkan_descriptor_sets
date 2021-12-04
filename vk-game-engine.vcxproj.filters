@@ -89,6 +89,9 @@
     <ClInclude Include="src\VkBootstrap.h">
       <Filter>libs</Filter>
     </ClInclude>
+    <ClInclude Include="src\vk_mem_alloc.h">
+      <Filter>libs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\quad.vert">

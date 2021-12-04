@@ -37,6 +37,7 @@
     <ClInclude Include="src\VkBootstrap.h" />
     <ClInclude Include="src\vk_frame_data.h" />
     <ClInclude Include="src\vk_global_data.h" />
+    <ClInclude Include="src\vk_mem_alloc.h" />
     <ClInclude Include="src\vk_shader_config.h" />
     <ClInclude Include="src\vk_game_engine.h" />
     <ClInclude Include="src\vk_initializers.h" />
